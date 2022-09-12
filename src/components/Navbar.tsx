@@ -2,7 +2,9 @@ import React from 'react'
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap'
 
 function Navigation() {
+  
   return (
+  <>
     <Navbar bg="light" expand="lg">
       <Container>
         <Navbar.Brand href="#home">Task Tracker</Navbar.Brand>
@@ -25,9 +27,12 @@ function Navigation() {
           </Nav>
         </Navbar.Collapse>
       </Container>
+
     </Navbar>
+ 
 
     //demo change for git practice
+    </>
     
   )
 }
