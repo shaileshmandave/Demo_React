@@ -3,7 +3,7 @@ import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap'
 
 function Navigation() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="dark" expand="lg">
       <Container>
         <Navbar.Brand href="#home">Task Tracker</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
